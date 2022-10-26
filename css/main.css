@@ -1,0 +1,64 @@
+body{
+padding:0;
+margin:0;
+font-family: sans-serif;
+color: black;
+font-size: 16px;
+
+}
+h1 {
+    color:rgb(0, 0, 0)
+}
+h1, h2, h3, h4, h5, h6 {
+	padding: 0;
+	margin: 0;
+	text-transform: uppercase;
+}
+ul, li {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+.container {
+	width: 1170px;
+	margin: 0 auto; 
+}
+header {
+	background: url('../img/pexels-expect-best-323780 1.jpg') no-repeat center top / cover;
+	padding-top: 100px;
+	color: #fff;
+	padding-bottom: 880px
+}
+header a {
+    color: #2F2E2E;
+    
+}
+.menu {
+display: flex;
+}
+.menu li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 20px;
+}
+.menu li {
+    margin-right: 106px;
+}
+.tel {
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: auto;
+    letter-spacing: 0.2em; 
+    
+}
+.nav {
+    display:flex;
+    align-items: center;
+}
+.offer h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    letter-spacing: 0.02em;
+}
